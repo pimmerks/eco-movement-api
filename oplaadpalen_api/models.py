@@ -49,7 +49,7 @@ class Standard(Enum):
     IEC_60309_2_three_64 = "IEC_60309_2_three_64"
     """IEC 60309-2 Industrial Connector three phase 64 Amperes (usually red)"""
     IEC_62196_T1 = "IEC_62196_T1"
-    """IEC 62196 Type 1 'SAE J1772"""'
+    """IEC 62196 Type 1 'SAE J1772'"""
     IEC_62196_T1_COMBO = "IEC_62196_T1_COMBO"
     """Combo Type 1 based, DC"""
     IEC_62196_T2 = "IEC_62196_T2"
@@ -59,7 +59,7 @@ class Standard(Enum):
     IEC_62196_T3A = "IEC_62196_T3A"
     """IEC 62196 Type 3A"""
     IEC_62196_T3C = "IEC_62196_T3C"
-    """IEC 62196 Type 3C 'Scame"""'
+    """IEC 62196 Type 3C 'Scame'"""
     TESLA_R = "TESLA_R"
     """Tesla Connector "Roadster" - Type (round, 4 pin)"""
     TESLA_S = "TESLA_S"
