@@ -1,13 +1,14 @@
 import requests
 import jsons
 
-from oplaadpalen_api.models import ApiException, LocationApiResponse
+from oplaadpalen_api.exception import ApiException
+from oplaadpalen_api.models import LocationApiResponse
 
 
 class OplaadpalenClient:
     """Client for oplaadpalen.nl REST api."""
 
-    BASEURL='https://oplaadpalen.nl/api'
+    BASEURL = 'https://oplaadpalen.nl/api'
 
     def get_location_details(self, location_id: str) -> LocationApiResponse:
         """Get the details of a charging station location.
