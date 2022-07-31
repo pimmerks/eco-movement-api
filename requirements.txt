@@ -1,2 +1,2 @@
-jsonpickle==2.2.0
+jsons==1.6.3
 requests==2.28.1
