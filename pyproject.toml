@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "oplaadpalen-api"
+name = "eco-movement-api"
 description = 'Python API for oplaadpalen.nl'
 readme = "README.md"
 requires-python = ">=3.7"
@@ -29,12 +29,12 @@ dependencies = [
 dynamic = ["version"]
 
 [project.urls]
-Documentation = "https://github.com/unknown/oplaadpalen-api#readme"
-Issues = "https://github.com/unknown/oplaadpalen-api/issues"
-Source = "https://github.com/unknown/oplaadpalen-api"
+Documentation = "https://github.com/pimmerks/eco-movement-api#readme"
+Issues = "https://github.com/pimmerks/eco-movement-api/issues"
+Source = "https://github.com/pimmerks/eco-movement-api"
 
 [tool.hatch.version]
-path = "oplaadpalen_api/__about__.py"
+path = "eco_movement_api/__about__.py"
 
 [tool.hatch.build.targets.sdist]
 [tool.hatch.build.targets.wheel]
@@ -45,7 +45,7 @@ dependencies = [
   "pytest-cov",
 ]
 [tool.hatch.envs.default.scripts]
-cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=oplaadpalen_api --cov=tests"
+cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=eco_movement_api --cov=tests"
 no-cov = "cov --no-cov"
 
 [[tool.hatch.envs.test.matrix]]
@@ -55,7 +55,7 @@ python = ["37", "38", "39", "310"]
 branch = true
 parallel = true
 omit = [
-  "oplaadpalen_api/__about__.py",
+  "eco_movement_api/__about__.py",
 ]
 
 [tool.coverage.report]
