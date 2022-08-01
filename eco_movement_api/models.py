@@ -136,4 +136,4 @@ class DataClass:
 class LocationApiResponse:
     status_code: int
     status_message: str
-    data: Union[DataClass, List[Any]]
+    data: Union[DataClass, List[Any]] = None

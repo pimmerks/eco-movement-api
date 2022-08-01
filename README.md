@@ -1,6 +1,6 @@
-# oplaadpalen-api
+# eco-movement-api
 
-Python API for [oplaadpalen.nl](https://oplaadpalen.nl/)
+Python API for [eco-movement](https://maps.eco-movement.com/)
 
 ## Development environment
 

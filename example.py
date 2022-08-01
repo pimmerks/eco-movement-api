@@ -1,7 +1,7 @@
-from oplaadpalen_api.client import OplaadpalenClient
-from oplaadpalen_api.models import Status
+from eco_movement_api.client import EcoMovementClient
+from eco_movement_api.models import Status
 
-client = OplaadpalenClient()
+client = EcoMovementClient()
 
 details = client.get_location_details('3771ff27e884611ebba6042010a84000')
 

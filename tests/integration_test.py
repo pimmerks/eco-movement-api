@@ -1,8 +1,8 @@
-from oplaadpalen_api.client import OplaadpalenClient
+from eco_movement_api.client import EcoMovementClient
 
 def test_get_location():
-    client = OplaadpalenClient()
-    details = client.get_location_details('3771ff27e884611ebba6042010a84000')
+    client = EcoMovementClient()
+    details = client.get_location_details('0c099e6813411ebadeb42010a8400038')
 
     assert details.status_code == 1000
     assert details.status_message == "OK"
